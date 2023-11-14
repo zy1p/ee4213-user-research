@@ -9,8 +9,8 @@ warnings.filterwarnings("ignore")
 
 input_file = "data/shoes_data.csv"
 output_file = "out/shoes_data_cleaned.csv"
-output_sematic_file = "out/amazon/shoes_data_semantic"
-plot_output_file_path = "out/amazon/"
+output_sematic_file = "out/distilbert/shoes_data_semantic"
+plot_output_file_path = "out/distilbert/"
 
 
 file = pd.read_csv(input_file)
