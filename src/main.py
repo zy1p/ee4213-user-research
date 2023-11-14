@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 
 input_file = "data/shoes_data.csv"
 output_file = "out/shoes_data_cleaned.csv"
-output_sematic_file = "out/amazon/shoes_data_semantic"
+output_sematic_file = "out/amazon/shoes_data_semantic.csv"
 plot_output_file_path = "out/amazon"
 
 
