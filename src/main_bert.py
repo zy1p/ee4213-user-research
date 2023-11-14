@@ -43,9 +43,7 @@ df.to_csv(output_file, index=False)
 if os.path.isfile(output_sematic_file):
     df = pd.read_csv(output_sematic_file)
 else:
-    df[["Emotion", "Sentiment_Score"]] = (
-        df["clean_review"].apply(analyze_sentiment_bert).apply(pd.Series)
-    )
+    df["Sentiment"] = df["clean_review"].apply(analyze_sentiment_bert)
     df.to_csv(
         output_sematic_file,
         index=False,
