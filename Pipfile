@@ -16,4 +16,6 @@ transformers = {extras = ["torch"], version = "*"}
 python_version = "3.10"
 
 [scripts]
-dev = "python src/main.py"
+"dev" = "python src/main.py"
+"dev:bert" = "python src/main_bert.py"
+"dev:distilbert" = "python src/main_distilbert.py"
